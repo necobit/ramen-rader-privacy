@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamenRader - サポート</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 24px;
+            background: #FFFF00;
+            color: #222;
+            line-height: 1.8;
+        }
+        h1 {
+            color: #8B4513;
+            border-bottom: 2px solid #CC9900;
+            padding-bottom: 12px;
+        }
+        h2 {
+            color: #8B4513;
+            margin-top: 32px;
+        }
+        h3 { color: #6B3410; }
+        a { color: #8B0000; }
+        .date { color: #886600; font-size: 14px; }
+        strong { color: #8B4513; }
+        .faq-q {
+            font-weight: bold;
+            color: #8B4513;
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+        .faq-a {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        .contact-box {
+            background: #FFFACD;
+            border: 1px solid #CC9900;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-top: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RamenRader サポート</h1>
+    <p class="date">最終更新日: 2026年3月26日</p>
+
+    <h2>アプリについて</h2>
+    <p>RamenRader（ラーメンレーダー）は、GPS位置情報を使って周辺のお店をレーダー画面にプロットするアプリです。watchOS（Apple Watch）とiOS（iPhone）の両方に対応しています。検索ワードを変更すれば、ラーメン以外のお店も自由に検索できます。</p>
+
+    <h2>使い方</h2>
+    <h3>Apple Watch</h3>
+    <ul>
+        <li>アプリを起動すると、現在地を中心にレーダーが表示されます</li>
+        <li><strong>Digital Crown</strong> を回すと縮尺を変更できます（300m〜15kmの8段階）</li>
+        <li><strong>左スワイプ</strong> で検索ワードを変更できます</li>
+    </ul>
+
+    <h3>iPhone</h3>
+    <ul>
+        <li>画面上部の<strong>テキストボックス</strong>で検索ワードを変更できます</li>
+        <li>画面下部の<strong>+/- ボタン</strong>で縮尺を変更できます</li>
+    </ul>
+
+    <h2>よくある質問（FAQ）</h2>
+
+    <p class="faq-q">Q: お店が表示されません</p>
+    <p class="faq-a">A: 位置情報の使用が許可されているか確認してください。iPhoneの「設定」→「プライバシーとセキュリティ」→「位置情報サービス」→「RamenRader」で「このAppの使用中のみ許可」を選択してください。Apple Watchの場合は、iPhoneのWatchアプリから同様に設定できます。</p>
+
+    <p class="faq-q">Q: レーダーの向きがおかしいです</p>
+    <p class="faq-a">A: 本アプリはコンパス機能を使ってヘッドアップ表示を行っています。磁気干渉がある場所では方位が正確でない場合があります。デバイスを8の字に動かしてコンパスのキャリブレーションを行ってみてください。コンパス非対応のデバイスでは北が常に上に固定されます。</p>
+
+    <p class="faq-q">Q: 検索結果が少ないです</p>
+    <p class="faq-a">A: 本アプリはApple Mapsのデータを使用しており、検索結果は最大約25件です。縮尺を広げると、より広い範囲から検索されます。</p>
+
+    <p class="faq-q">Q: バッテリー消費が気になります</p>
+    <p class="faq-a">A: 位置情報の精度を最適化し、10m未満の微小移動はフィルタリングすることでバッテリー消費を抑えています。使用しないときはアプリを閉じてください。</p>
+
+    <p class="faq-q">Q: 検索ワードはどうやってリセットしますか？</p>
+    <p class="faq-a">A: 検索ワードの入力欄に「ラーメン」と入力し直すことで、デフォルトの状態に戻ります。</p>
+
+    <h2>動作要件</h2>
+    <ul>
+        <li>watchOS 10.0以降（Apple Watch Series 4以降）</li>
+        <li>iOS 17.0以降（iPhone専用）</li>
+        <li>位置情報の使用許可が必要です</li>
+    </ul>
+
+    <h2>お問い合わせ</h2>
+    <p>ご質問、不具合のご報告、機能のご要望などがございましたら、以下の方法でお気軽にお問い合わせください。</p>
+
+    <div class="contact-box">
+        <p><strong>GitHub Issues</strong><br>
+        <a href="https://github.com/necobit/ramen-rader-privacy/issues">https://github.com/necobit/ramen-rader-privacy/issues</a><br>
+        不具合報告や機能リクエストはこちらからお願いします。</p>
+    </div>
+
+    <h2>関連リンク</h2>
+    <ul>
+        <li><a href="https://necobit.github.io/ramen-rader-privacy/">プライバシーポリシー</a></li>
+    </ul>
+</body>
+</html>
